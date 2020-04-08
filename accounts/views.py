@@ -14,13 +14,13 @@ def register(request):
 
 def dashboard(request):
     if request.method == 'POST':
-        # register user
+        # dashboard
         return
     return render(request, 'accounts/dashboard.html')
 
 
 def logout(request):
     if request.method == 'POST':
-        # register user
+        # logout user
         return
     return redirect('index')
