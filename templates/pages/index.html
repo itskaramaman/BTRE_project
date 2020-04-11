@@ -1,6 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
 {% load humanize %}
+{% block title %}
+| Welcome
+{% endblock %}
+
+<br>
+<!-- Alert -->
+{% include 'partials/_alerts.html' %}
 
 <!-- Showcase -->
 <section id="showcase">
